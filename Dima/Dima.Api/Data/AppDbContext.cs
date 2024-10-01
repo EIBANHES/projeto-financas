@@ -6,7 +6,7 @@ namespace Dima.Api.Data;
 
 public class AppDbContext(DbContextOptions<AppDbContext> options) : DbContext(options)
 {
-    // Representação das tabelas
+    //Representação das tabelas
     public DbSet<Category> Categories { get; set; } = null!;
     public DbSet<Transaction> Transactions { get; set; } = null!;
 
